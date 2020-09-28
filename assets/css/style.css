@@ -15,8 +15,68 @@ body {
 
 /*----------------------------------------Header Section*/
 
+.header {
+    height: 70px;
+    background: #2f2d2e;
+    margin: 0;
+}
+
+#company-logo {
+     color: #B02841;
+     text-transform: uppercase;
+     float: left;
+     font-size: 225%;
+     letter-spacing: 2px;
+}
+
+#navbar-links {
+    font-size: 125%;
+    list-style-type: none;
+    letter-spacing: 2px;
+}
+
+#company-logo, #navbar-links {
+    line-height: 70px;
+}
+
+#navbar-links li {
+    float: right;
+    margin-right: 20px;
+}
+
+#navbar-links a:hover {
+    border-bottom: 2px solid #B02841;
+}
+
+#navbar-links a {
+    text-decoration: none;
+    color: #B02841;
+}
+
+.active {
+    border-bottom: 2px solid #B02841;
+}
 
 /*----------------------------------------Header Section*/
+
+/*----------------------------------------Home page photos*/
+
+
+
+
+/*----------------------------------------Home page photos*/
+
+/*----------------------------------------Home page text*/
+
+
+
+/*----------------------------------------Home page text*/
+
+/*----------------------------------------Destinations links*/
+
+
+
+/*----------------------------------------Destinations links*/
 
 /*----------------------------------------Footer Section*/
 
