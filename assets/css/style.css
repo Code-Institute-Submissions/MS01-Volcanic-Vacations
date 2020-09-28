@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Saira:100,200,300,400,500,600');
 
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     border: 0;
@@ -32,7 +33,6 @@ body {
 #navbar-links {
     font-size: 125%;
     list-style-type: none;
-    letter-spacing: 2px;
 }
 
 #company-logo, #navbar-links {
@@ -61,8 +61,16 @@ body {
 
 /*----------------------------------------Home page photos*/
 
+.column {
+	float: left;
+	width: 33.33%;
+	padding: 5px;
+}
 
-
+.row::after {
+	display: table;
+	clear: both;
+}
 
 /*----------------------------------------Home page photos*/
 
