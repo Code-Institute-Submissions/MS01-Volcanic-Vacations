@@ -73,6 +73,14 @@ img {
   height: auto ;
 } 
 
+.column .hp-pic img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
+
 /*----------------------------------------Home page photos*/
 
 /*----------------------------------------Home page text*/
@@ -96,9 +104,10 @@ img {
 /*----------------------------------------Destinations links*/
 
 #destinations-home {
-    margin: 5px;
+    margin-top: 5px;
     height: 175px;
-    border: 1px dashed #2f2d2e;
+    border: #2f2d2e;
+    margin-left: 10px;
 }
 
 #europe-home {
@@ -108,6 +117,7 @@ img {
     float: left;
     background-color: silver;
     border: 1px solid #b02841;
+    border-radius: 25px;
 }
 
 #asia-home {
@@ -117,6 +127,7 @@ img {
     float: right;
     background-color: lightslategray;
     border: 1px solid #b02841;
+    border-radius: 25px;
 }
 
 #americas-home {
@@ -126,6 +137,7 @@ img {
     margin: 0 auto;
     background-color: lightskyblue;
     border: 1px solid #b02841;
+    border-radius: 25px;
 }
 
 .europe-link-heading {
