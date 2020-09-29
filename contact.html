@@ -33,46 +33,41 @@
             </div>
      </nav>
    
+   <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <p>Contact Us</p>
+            </div>
+        </div>
+    </div>
 
-    <section>
-       <div class="row">
-		    <div class="column">
-			    <img src="assets/images/volcano-pic01.jpg" width="100%;" alt="Twin volcano peaks">
-		</div>
-
-		    <div class="column">
-			    <img src="assets/images/volcano-pic02.jpg" width="100%;" alt="Volcanic lightning">
-		    </div>
-
-		    <div class="column">
-			    <img src="assets/images/volcano-pic03.jpg" width="100%;" alt="Volcanic crater sunrise">
-		    </div>
-	    </div>
-    </section>
-
-    <section class="intro-text">
-        <div>
-            <p>Are you thrilled by the breath-taking power and majesty of volcanoes and their eruptions?</p>
+    <form class="contact-form" action="#" method="get">
+        <div class="contact-form-intro-text">
+            <p>Feel free to get in touch with us if you have any questions about our destinations or tours. We’re happy to answer anything which you might be unsure about and we’ll get back to you within 24 hours to answer your query</p>
+            <p>Also, if you’d like to be among the first to know about our upcoming tours then please join our mailing list to receive instant updates and our quarterly ‘Volcanic Vacations’ newsletter straight to your email inbox</p>
         </div>
         <div>
-            <p>Let us take you to these amazing locations on one of our fully guided tours</p>
+            <label for="firstname">First Name</label>
+            <input type="text" name="firstname" id="firstname" placeholder="First Name" required>
         </div>
         <div>
-            <p>Our guides, who are all experienced geologists, will bring these locations to life through their extensive geological expertise</p>
+            <label for="lastname">Last Name</label>
+            <input type="text" name="lastname" id="lastname" placeholder="Last Name" required>
         </div>
         <div>
-            <p>From Iceland, ‘The Land of Fire and Ice’ in the North Atlantic, to Hawaii’s ‘Big Island’ in the middle of the Pacific, all the way ‘Down Under’  to stunning New Zealand, our tours will transport you to some of Planet Earth’s most remarkable places</p>
+            <label for="email">Your Email</label>
+            <input type="email" name="email" id="email" placeholder="Your Email" required>
         </div>
         <div>
-            <p>Discover our incredible destinations below!!</p>
+            <label for="subject">Subject</label>
+            <input type="text" name="subject" id="subject" placeholder="Subject" required>
         </div>
-    </section>
-
-    <section id="destinations-home">
-        <div id="europe-home">Europe</div>
-        <div id="americas-home">The Americas</div>
-        <div id="asia-home">Asia & Oceania</div>
-    </section>
+        <div>
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" placeholder="Your Message" rows="4"></textarea>
+        </div>
+       <button class="sign-up-button" type="submit">Sign Up!!</button>
+    </form>
 
 <footer class="footer bg-dark">
         <div id="footer-items" class="row">
@@ -97,29 +92,3 @@
    
 
 </html>
-
-
-
-
-
-
-
-
-
-	
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

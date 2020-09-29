@@ -16,48 +16,42 @@ body {
 
 /*----------------------------------------Header Section*/
 
-.header {
-    height: 70px;
-    background: #2f2d2e;
-    margin: 0;
-}
-
-#company-logo {
-     color: #B02841;
-     text-transform: uppercase;
-     float: left;
-     font-size: 225%;
-     letter-spacing: 2px;
-     margin-left: 10px;
-}
-
-#navbar-links {
-    font-size: 125%;
-    list-style-type: none;
-}
-
-#company-logo, #navbar-links {
-    line-height: 70px;
-}
-
-#navbar-links li {
-    float: right;
-    margin-right: 20px;
-}
-
-#navbar-links a:hover {
-    border-bottom: 2px solid #B02841;
-}
-
-#navbar-links a {
-    text-decoration: none;
-    color: #B02841;
-}
-
 .active {
     border-bottom: 2px solid #B02841;
 }
 
+.navbar {
+    align-items: center;
+    background-color: #2f2d2e;
+    color: #b02841;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar .navbar-brand {
+    color: #b02841;
+    font-family: Saira, sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #b02841;
+    font-family: Saira, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+   background-color: rgba(229, 229, 229, 0.13);
+}
+
+ .navbar-toggler .navbar-toggler-icon {
+    color: #b02841;
+}
 /*----------------------------------------Header Section*/
 
 /*----------------------------------------Home page photos*/
@@ -101,6 +95,11 @@ img {
 
 /*----------------------------------------Destinations links*/
 
+#destinations-home {
+    height: 175px;
+    width: 40px;
+    border: #2f2d2e;
+}
 
 
 /*----------------------------------------Destinations links*/
@@ -150,3 +149,115 @@ footer {
 }
 
 /*----------------------------------------Footer Section*/
+
+
+
+/*----------------------------------------Destinations page*/
+
+.container {
+    font-family: Saira, sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: #2F2D2E;
+    text-align: center;
+    margin: auto;
+    width: 250px;
+    height: 50px;
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+/*----------------------------------------Destinations page*/
+
+/*----------------------------------------Tours page*/
+
+.container {
+    font-family: Saira, sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: #2F2D2E;
+    text-align: center;
+    margin: auto;
+    width: 250px;
+    height: 50px;
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+/*----------------------------------------Tours page*/
+
+/*----------------------------------------Contact page*/
+
+.container {
+    font-family: Saira, sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: #2F2D2E;
+    text-align: center;
+    margin: auto;
+    width: 250px;
+    height: 50px;
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+.contact-form{
+	background: #F3F0EE;
+    font-family: Saira, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: auto;
+    text-transform: uppercase;
+    max-width: 500px;
+    max-height: 780px;
+    display: block;
+    border: 2px solid #b02841;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.contact-form-intro-text {
+    font-family: Saira, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #2F2D2E;
+    text-align: center;
+    margin: auto;
+    text-transform: none;
+}
+
+label {
+    width: 150px;
+    display: inline-block;
+}
+
+.sign-up-button {
+    color: #F3F0EE;
+    background-color: #b02841;
+    text-transform: uppercase;
+    width: 200px;
+    margin-left: 155px;
+    margin-top: 5px;
+    border-radius: 20px;
+}
+
+input {
+    background-color: #b02841;
+    color: #F3F0EE;
+    border-radius: 20px;
+}
+
+textarea {
+    background-color: #b02841;
+    color: #F3F0EE;
+    border-radius: 20px;
+}
+
+::placeholder {
+    color: #F3F0EE;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+/*----------------------------------------Contact page*/
