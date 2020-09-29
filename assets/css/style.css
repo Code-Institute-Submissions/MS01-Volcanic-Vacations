@@ -58,7 +58,7 @@ body {
 
 .column {
 	float: left;
-	width: 33.33%;
+	width: 33%;
 	padding: 5px;
 }
 
@@ -96,12 +96,55 @@ img {
 /*----------------------------------------Destinations links*/
 
 #destinations-home {
+    margin: 5px;
     height: 175px;
-    width: 40px;
-    border: #2f2d2e;
+    border: 1px dashed #2f2d2e;
 }
 
+#europe-home {
+    padding-top: 30px;
+    width: 33%;
+    height: 175px;
+    float: left;
+    background-color: silver;
+    border: 1px solid #b02841;
+}
 
+#asia-home {
+    padding-top: 30px;
+    width: 33%;
+    height: 175px;
+    float: right;
+    background-color: lightslategray;
+    border: 1px solid #b02841;
+}
+
+#americas-home {
+    padding-top: 30px;
+    width: 33%;
+    height: 175px;
+    margin: 0 auto;
+    background-color: lightskyblue;
+    border: 1px solid #b02841;
+}
+
+.europe-link-heading {
+    text-align: center;
+    text-transform: uppercase;
+    color: #F3F0EE;
+}
+
+.americas-link-heading {
+    text-align: center;
+    text-transform: uppercase;
+    color: #F3F0EE;
+}
+
+.asia-link-heading {
+    text-align: center;
+    text-transform: uppercase;
+    color: #F3F0EE;
+}
 /*----------------------------------------Destinations links*/
 
 /*----------------------------------------Footer Section*/
