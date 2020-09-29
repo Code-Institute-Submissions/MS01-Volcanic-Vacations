@@ -28,6 +28,7 @@ body {
      float: left;
      font-size: 225%;
      letter-spacing: 2px;
+     margin-left: 10px;
 }
 
 #navbar-links {
@@ -72,11 +73,29 @@ body {
 	clear: both;
 }
 
+img {
+  width: auto ;
+  max-width: 100% ;
+  height: auto ;
+} 
+
 /*----------------------------------------Home page photos*/
 
 /*----------------------------------------Home page text*/
 
+.intro-text {
+    text-align: center;
+    padding: 5px;
+    margin: 0 auto;
+    width: 950px;
+    padding-left: 125px;
+    padding-right: 125px;
+    color: #2f2d2e;
+}
 
+.intro-text p {
+    margin: 5px;
+}
 
 /*----------------------------------------Home page text*/
 
