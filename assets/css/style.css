@@ -108,6 +108,7 @@ img {
     height: 175px;
     border: #2f2d2e;
     margin-left: 10px;
+    display: flex;
 }
 
 #europe-home {
