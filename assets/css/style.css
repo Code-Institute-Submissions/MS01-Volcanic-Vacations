@@ -104,10 +104,9 @@ img {
 /*----------------------------------------Destinations links*/
 
 #destinations-home {
-    margin-top: 5px;
+    margin: 10px;
     height: 175px;
     border: #2f2d2e;
-    margin-left: 10px;
     display: flex;
 }
 
@@ -142,21 +141,30 @@ img {
 }
 
 .europe-link-heading {
-    text-align: center;
     text-transform: uppercase;
     color: #F3F0EE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110px;
 }
 
 .americas-link-heading {
-    text-align: center;
     text-transform: uppercase;
     color: #F3F0EE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110px;
 }
 
 .asia-link-heading {
-    text-align: center;
     text-transform: uppercase;
     color: #F3F0EE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110px;
 }
 /*----------------------------------------Destinations links*/
 
