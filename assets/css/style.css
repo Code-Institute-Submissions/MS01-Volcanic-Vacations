@@ -205,8 +205,6 @@ footer {
 
 /*----------------------------------------Footer Section*/
 
-
-
 /*----------------------------------------Destinations page*/
 
 .container {
@@ -222,6 +220,10 @@ footer {
     padding: 5px;
 }
 
+.col-sm-12 p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
 /*----------------------------------------Destinations page*/
 
 /*----------------------------------------Tours page*/
@@ -239,7 +241,32 @@ footer {
     padding: 5px;
 }
 
+.col-sm-12 p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
 /*----------------------------------------Tours page*/
+
+/*----------------------------------------Gallery page*/
+
+#gallery-photos {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0px;
+}
+
+#gallery-photos img {
+    width: 100%;
+}
+
+.col-sm-12 p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/*----------------------------------------Gallery page*/
 
 /*----------------------------------------Contact page*/
 
@@ -313,6 +340,11 @@ textarea {
     text-transform: uppercase;
     font-size: 12px;
     padding-left: 10px;
+}
+
+.col-sm-12 p {
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 /*----------------------------------------Contact page*/
