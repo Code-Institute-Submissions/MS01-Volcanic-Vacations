@@ -14,6 +14,12 @@ body {
     background-color: #F3F0EE;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    background-size: cover;
+}
 /*----------------------------------------Header Section*/
 
 .active {
@@ -106,66 +112,37 @@ img {
 #destinations-home {
     margin: 10px;
     height: 175px;
-    border: #2f2d2e;
+    border: 1px dashed #2f2d2e;
     display: flex;
 }
 
-#europe-home {
+.box {
     padding-top: 30px;
     width: 33%;
     height: 175px;
+    border: 1px solid #b02841;
+}    
+
+#europe-home {
     float: left;
     background-color: silver;
-    border: 1px solid #b02841;
-    border-radius: 25px;
 }
 
 #asia-home {
-    padding-top: 30px;
-    width: 33%;
-    height: 175px;
     float: right;
     background-color: lightslategray;
-    border: 1px solid #b02841;
-    border-radius: 25px;
 }
-
 #americas-home {
-    padding-top: 30px;
-    width: 33%;
-    height: 175px;
     margin: 0 auto;
     background-color: lightskyblue;
-    border: 1px solid #b02841;
-    border-radius: 25px;
 }
 
-.europe-link-heading {
+.heading {
+    text-align: center;
     text-transform: uppercase;
     color: #F3F0EE;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 110px;
 }
 
-.americas-link-heading {
-    text-transform: uppercase;
-    color: #F3F0EE;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 110px;
-}
-
-.asia-link-heading {
-    text-transform: uppercase;
-    color: #F3F0EE;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 110px;
-}
 /*----------------------------------------Destinations links*/
 
 /*----------------------------------------Footer Section*/
