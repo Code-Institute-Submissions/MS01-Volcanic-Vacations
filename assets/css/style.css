@@ -20,6 +20,12 @@ img {
     object-fit: contain;
     background-size: cover;
 }
+
+.row,.container,.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
 /*----------------------------------------Header Section*/
 
 .active {
@@ -269,9 +275,8 @@ footer {
     padding: 5px;
 }
 
-.contact-form{
+.contact-form {
 	background: #F3F0EE;
-    font-family: Saira, sans-serif;
     font-size: 16px;
     font-weight: 400;
     margin: auto;
@@ -285,7 +290,6 @@ footer {
 }
 
 .contact-form-intro-text {
-    font-family: Saira, sans-serif;
     font-size: 16px;
     font-weight: 500;
     color: #2F2D2E;
@@ -310,22 +314,17 @@ label {
 }
 
 input {
+    width: 200px;
     background-color: #b02841;
     color: #F3F0EE;
     border-radius: 20px;
 }
 
 textarea {
+    width: 200px;
     background-color: #b02841;
     color: #F3F0EE;
     border-radius: 20px;
-}
-
-::placeholder {
-    color: #F3F0EE;
-    text-transform: uppercase;
-    font-size: 12px;
-    padding-left: 10px;
 }
 
 .col-sm-12 p {
@@ -335,18 +334,3 @@ textarea {
 
 /*----------------------------------------Contact page*/
 
-/*----------------------------------------Media queries*/
-
-@media screen and (max-width: 1200px) {
-    
-}
-
-@media screen and (max-width: 1024px) {
-    
-}
-
-@media screen and (max-width: 768px) {
-    
-}
-
-/*----------------------------------------Media queries*/
