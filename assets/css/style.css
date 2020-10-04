@@ -291,6 +291,7 @@ footer {
     border: 2px solid #b02841;
     padding: 20px;
     border-radius: 25px;
+    margin-bottom: 20px;
 }
 
 .contact-form-intro-text {
@@ -311,23 +312,25 @@ label {
     color: #F3F0EE;
     background-color: #b02841;
     text-transform: uppercase;
-    width: 200px;
+    width: 300px;
     margin-left: 155px;
     margin-top: 5px;
     border-radius: 20px;
 }
 
 input {
-    width: 200px;
-    background-color: #b02841;
-    color: #F3F0EE;
+    width: 300px;
+    background-color:#F3F0EE;
+    color: #2F2D2E;
+    border: 1px solid #b02841;
     border-radius: 20px;
 }
 
 textarea {
-    width: 200px;
-    background-color: #b02841;
+    width: 300px;
+    background-color: #F3F0EE;
     color: #F3F0EE;
+    border: 1px solid #b02841;
     border-radius: 20px;
 }
 
