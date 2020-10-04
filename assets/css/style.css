@@ -317,15 +317,20 @@ label {
     display: inline-block;
 }
 
-.sign-up-button {
-    color: #F3F0EE;
-    background-color: #b02841;
+.btn-danger {
+    color: #2F2D2E;
+    background-color: lightgrey;
     text-transform: uppercase;
     width: 300px;
     margin-left: 155px;
     margin-top: 5px;
     border-radius: 20px;
 }
+
+.btn-danger:hover {
+    background-color: rgba(178, 40, 65, 0.9);
+}
+
 
 input {
     width: 300px;
