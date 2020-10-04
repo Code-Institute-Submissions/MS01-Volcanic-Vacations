@@ -266,7 +266,7 @@ footer {
 
 /*----------------------------------------Contact page*/
 
-.container {
+.col-sm-12 .contact-us {
     font-family: Saira, sans-serif;
     font-size: 22px;
     font-weight: 500;
