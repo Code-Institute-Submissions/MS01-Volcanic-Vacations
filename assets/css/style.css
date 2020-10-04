@@ -111,6 +111,11 @@ img {
     margin: 5px;
 }
 
+mark {
+    background-color: #b02841;
+    color: #F3F0EE;
+}
+
 /*----------------------------------------Home page text*/
 
 /*----------------------------------------Destinations links*/
