@@ -208,7 +208,7 @@ footer {
 
 /*----------------------------------------Destinations page*/
 
-.container {
+.destinations-heading {
     font-family: Saira, sans-serif;
     font-size: 22px;
     font-weight: 500;
@@ -217,19 +217,13 @@ footer {
     margin: auto;
     width: 250px;
     height: 50px;
-    text-transform: uppercase;
-    padding: 5px;
-}
-
-.col-sm-12 p {
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 10px;
 }
 /*----------------------------------------Destinations page*/
 
 /*----------------------------------------Tours page*/
 
-.container {
+.tours-heading {
     font-family: Saira, sans-serif;
     font-size: 22px;
     font-weight: 500;
@@ -238,8 +232,7 @@ footer {
     margin: auto;
     width: 250px;
     height: 50px;
-    text-transform: uppercase;
-    padding: 5px;
+    padding: 10px;
 }
 
 .col-sm-12 p {
@@ -262,6 +255,18 @@ footer {
     width: 100%;
 }
 
+.gallery-heading {
+    font-family: Saira, sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: #2F2D2E;
+    text-align: center;
+    margin: auto;
+    width: 250px;
+    height: 50px;
+    padding: 10px;
+}
+
 .col-sm-12 p {
     padding-top: 5px;
     padding-bottom: 5px;
@@ -271,7 +276,7 @@ footer {
 
 /*----------------------------------------Contact page*/
 
-.col-sm-12 .contact-us {
+.contact-us-heading {
     font-family: Saira, sans-serif;
     font-size: 22px;
     font-weight: 500;
@@ -280,8 +285,7 @@ footer {
     margin: auto;
     width: 250px;
     height: 50px;
-    text-transform: uppercase;
-    padding: 5px;
+    padding: 10px;
 }
 
 .contact-form {
