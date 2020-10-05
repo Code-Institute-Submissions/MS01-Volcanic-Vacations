@@ -68,29 +68,10 @@ img {
 
 /*----------------------------------------Home page photos*/
 
-.column {
-	float: left;
-	width: 33%;
-	padding: 5px;
-}
-
-.row::after {
-	display: table;
-	clear: both;
-}
-
-img {
-  width: auto ;
-  max-width: 100% ;
-  height: auto ;
-} 
-
-.column .hp-pic img {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    overflow: hidden;
+.home-page-picture {
+    border: 1px solid #F3F0EE;
+    border-radius: 15px;
+    padding: 10px;
 }
 
 /*----------------------------------------Home page photos*/
@@ -98,7 +79,6 @@ img {
 /*----------------------------------------Home page text*/
 
 .intro-text {
-    text-align: center;
     padding: 5px;
     margin: 0 auto;
     width: 950px;
@@ -109,6 +89,7 @@ img {
 
 .intro-text p {
     margin: 5px;
+    text-align: center;
 }
 
 mark {
