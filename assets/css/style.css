@@ -174,7 +174,7 @@ footer {
 }
 
 .destinations-container {
-    height: 600px;
+    height: 100vh;
     border: 2px dashed red;
 }
 
@@ -191,6 +191,7 @@ footer {
     font-weight: 500;
     line-height: 20px;
     padding-top: 7px;
+    margin-top: 5px;
 }
 /*----------------------------------------Destinations page*/
 
