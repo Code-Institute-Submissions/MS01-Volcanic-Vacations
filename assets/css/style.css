@@ -68,7 +68,8 @@ img {
 
 /*----------------------------------------Home page photos*/
 
-.home-page-picture {
+.home-page-pictures-container {
+    height: 300px;
     border: 1px solid #F3F0EE;
     border-radius: 15px;
     padding: 10px;
@@ -101,38 +102,9 @@ mark {
 
 /*----------------------------------------Destinations links*/
 
-#destinations-home {
-    margin: 10px;
+.home-page-destinations-link-container {
     height: 175px;
-    border: 1px dashed #2f2d2e;
-    display: flex;
-}
-
-.box {
-    padding-top: 30px;
-    width: 33%;
-    height: 175px;
-    border: 1px solid #b02841;
-}    
-
-#europe-home {
-    float: left;
-    background-color: silver;
-}
-
-#asia-home {
-    float: right;
-    background-color: lightslategray;
-}
-#americas-home {
-    margin: 0 auto;
-    background-color: lightskyblue;
-}
-
-.heading {
-    text-align: center;
-    text-transform: uppercase;
-    color: #F3F0EE;
+    border: 2px dashed black;
 }
 
 /*----------------------------------------Destinations links*/
@@ -199,6 +171,26 @@ footer {
     width: 250px;
     height: 50px;
     padding: 10px;
+}
+
+.destinations-container {
+    height: 600px;
+    border: 2px dashed red;
+}
+
+.destinations-title {
+    height: 75px;
+    border: 2px dashed green;
+}
+
+.destinations-text {
+    height: 200px;
+    border: 2px dashed blue;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    padding-top: 7px;
 }
 /*----------------------------------------Destinations page*/
 
