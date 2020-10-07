@@ -63,24 +63,30 @@ img {
    background-color: rgba(229, 229, 229, 0.13);
 }
 
- .navbar-toggler .navbar-toggler-icon {
-    color: #b02841;
+ .navbar-toggler-icon {
+    border-color: #b02841;
+    border: 0;
+}
+
+.navbar-toggler {
+    border: 0;
 }
 
 .navmenu {
     background-color: #2F2D2E;
 }
+
 /*----------------------------------------Header Section*/
 
 /*----------------------------------------Home Page Top Hero Image*/
 
 .hero-image-top {
-    height: 370px;
+    min-height: 370px;
     width: 100%;
-    background-image: url("../images/volcano-pic01.jpg");
+    background-image: url("../images/marc-szeglat-VbP9v1rh-sc-unsplash.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    object-fit: contain;
+    background-size: cover;
     border: 5px dashed blue;
 }
 
