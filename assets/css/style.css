@@ -189,6 +189,13 @@ footer {
 
 /*----------------------------------------Destinations page*/
 
+#container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 5px dashed purple;
+}
+
 .destinations-heading {
     font-family: Saira, sans-serif;
     font-size: 22px;
