@@ -132,10 +132,10 @@ mark {
 .hero-image-bottom {
     height: 370px;
     width: 100%;
-    background-image: url("../images/volcano-pic01.jpg");
+    background-image: url("../images/andy-holmes-h5cYy5OHDWM-unsplash.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    object-fit: contain;
+    background-size: cover;
     border: 5px dashed orange;
     margin: auto
 }
