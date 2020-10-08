@@ -30,6 +30,10 @@ img {
 
 /*----------------------------------------Header Section*/
 
+nav {
+    width: 100%;
+}
+
 .active {
     border-bottom: 2px solid #B02841;
 }
@@ -41,7 +45,6 @@ img {
     display: flex;
     position: relative;
     justify-content: space-between;
-    width: 100%;
 }
 
 .navbar .navbar-brand {
@@ -141,16 +144,12 @@ mark {
 
 footer {
     height: 70px;
+    line-height: 60px;
     background: #2f2d2e;
     margin: 0;
-}
-
-.footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  height: 70px;
-  line-height: 60px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
 }
 
 .footer-items {
