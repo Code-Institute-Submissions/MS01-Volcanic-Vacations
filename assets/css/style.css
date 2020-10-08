@@ -91,6 +91,7 @@ nav {
     background-repeat: no-repeat;
     background-size: cover;
     border: 5px dashed blue;
+    margin: auto;
 }
 
 .tagline h1 {
@@ -136,6 +137,7 @@ mark {
     background-repeat: no-repeat;
     object-fit: contain;
     border: 5px dashed orange;
+    margin: auto
 }
 
 /*----------------------------------------Home Page Bottom Hero Image*/
