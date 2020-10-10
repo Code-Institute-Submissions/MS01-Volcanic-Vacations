@@ -190,11 +190,23 @@ footer {
 
 /*----------------------------------------Destinations page*/
 
-#container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 10px;
-    border: 5px dashed purple;
+ .destinations-hero-image {
+    min-height: 300px;
+    width: 100%;
+    background-image: url("../images/alejandro-vasquez-A24aX-QwTZk-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 5px dashed blue;
+    margin: auto;
+ }
+
+ .destinations-title h2 {
+    text-transform: uppercase;
+    color: #F3F0EE;
+    text-align: center;
+    margin: auto;
+    padding-top: 100px;
 }
 
 .destinations-heading {
@@ -226,13 +238,6 @@ footer {
     height: 100%;
     border: 2px dashed blue;
     margin: auto;
-}
-
-.destinations-title {
-    height: 75px;
-    border: 2px dashed ;
-    text-align: center;
-    margin-top: 5px;
 }
 
 .destinations-info {
