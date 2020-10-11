@@ -28,6 +28,7 @@ img {
     margin: 0;
 }
 
+/*----------------------------------------Home Page*/
 /*----------------------------------------Header Section*/
 
 nav {
@@ -140,6 +141,14 @@ mark {
     margin: auto
 }
 
+.destinations-link a {
+    background-color: #b02841 !important; 
+}
+
+.sign-up-link a {
+    background-color: #b02841 !important; 
+}
+
 /*----------------------------------------Home Page Bottom Hero Image*/
 
 /*----------------------------------------Footer Section*/
@@ -187,6 +196,7 @@ footer {
 }
 
 /*----------------------------------------Footer Section*/
+/*----------------------------------------Home Page*/
 
 /*----------------------------------------Destinations page*/
 
@@ -201,12 +211,19 @@ footer {
     margin: auto;
  }
 
- .destinations-title h2 {
+ .destinations-button {
     text-transform: uppercase;
     color: #F3F0EE;
     text-align: center;
     margin: auto;
     padding-top: 100px;
+}
+
+.destinations-title-btn {
+    text-transform: uppercase;
+    background-color: #b02841;
+    color: #F3F0EE;
+    text-align: center
 }
 
 .destinations-heading {
@@ -250,6 +267,11 @@ footer {
     padding-top: 7px;
     margin-top: 5px;
 }
+
+.destinations-title a {
+    background-color: #b02841 !important;  
+}
+
 /*----------------------------------------Destinations page*/
 
 /*----------------------------------------Gallery page*/
