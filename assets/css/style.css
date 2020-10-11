@@ -149,6 +149,7 @@ mark {
     height: 70px;
     border-radius: 20px;
     font-size: 38px;
+    font-weight: 500;
     border-color: #b02841;
 }
 
@@ -159,6 +160,7 @@ mark {
     height: 70px;
     border-radius: 20px;
     font-size: 38px;
+    font-weight: 500;
     border-color: #b02841;
 }
 
@@ -242,6 +244,9 @@ footer {
     color: #F3F0EE;
     text-align: center;
     margin-top: 125px;
+    width: 300px;
+    border-color: #b02841 !important;
+    border-radius: 25px;
 }
 
 .destination-name-btn {
@@ -249,6 +254,9 @@ footer {
     margin: auto;
     text-transform: uppercase;
     margin-top: 10px;
+    width: 200px;
+    border-color: #b02841 !important;
+    border-radius: 25px;
 }
 
 .europe-container {
