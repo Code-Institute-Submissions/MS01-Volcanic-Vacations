@@ -225,7 +225,7 @@ footer {
 /*----------------------------------------Footer Section*/
 /*----------------------------------------Home Page*/
 
-/*----------------------------------------Destinations page*/
+/*----------------------------------------Destinations Page*/
 
  .destinations-hero-image {
     min-height: 300px;
@@ -296,15 +296,16 @@ footer {
 }
 
 
-/*----------------------------------------Destinations page*/
+/*----------------------------------------Destinations Page*/
 
-/*----------------------------------------Gallery page*/
+/*----------------------------------------Gallery Page*/
 
 #gallery-photos {
     clear: both;
     line-height: 0;
     column-count: 4;
     column-gap: 0px;
+    margin: auto;
 }
 
 #gallery-photos img {
@@ -328,9 +329,9 @@ footer {
     padding-bottom: 5px;
 }
 
-/*----------------------------------------Gallery page*/
+/*----------------------------------------Gallery Page*/
 
-/*----------------------------------------Contact page*/
+/*----------------------------------------Contact Page*/
 
 .contact-us-heading {
     font-family: Saira, sans-serif;
@@ -409,5 +410,21 @@ textarea {
     padding-bottom: 5px;
 }
 
-/*----------------------------------------Contact page*/
+/*----------------------------------------Contact Page*/
+
+/*----------------------------------------Media Queries*/
+
+@media screen and (max-width: 800px) {
+    #gallery-photos {
+        column-count: 2;
+    }
+}
+
+@media screen and (max-width: 943px) {
+    #gallery-photos {
+        column-count: 3;
+    }
+}
+
+/*----------------------------------------Media Queries*/
 
