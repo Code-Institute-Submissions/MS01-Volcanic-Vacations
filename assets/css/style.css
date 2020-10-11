@@ -147,7 +147,7 @@ mark {
     margin-top: 50px;
     width: 400px;
     height: 70px;
-    border-radius: 20px;
+    border-radius: 25px;
     font-size: 38px;
     font-weight: 500;
     border-color: #b02841;
@@ -158,7 +158,7 @@ mark {
     margin-top: 60px;
     width: 400px;
     height: 70px;
-    border-radius: 20px;
+    border-radius: 25px;
     font-size: 38px;
     font-weight: 500;
     border-color: #b02841;
@@ -243,10 +243,13 @@ footer {
     background-color: #b02841;
     color: #F3F0EE;
     text-align: center;
-    margin-top: 125px;
-    width: 300px;
+    margin-top: 100px;
+    width: 400px;
+    height: 70px;
     border-color: #b02841 !important;
     border-radius: 25px;
+    font-size: 38px;
+    font-weight: 500;
 }
 
 .destination-name-btn {
