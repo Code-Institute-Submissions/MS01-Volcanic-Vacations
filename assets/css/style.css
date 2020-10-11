@@ -226,17 +226,10 @@ footer {
     text-align: center
 }
 
-.destinations-heading {
-    font-family: Saira, sans-serif;
-    font-size: 22px;
-    font-weight: 500;
-    color: #2F2D2E;
-    text-align: center;
+.destination-name-btn {
+    background-color: #b02841 !important; 
     margin: auto;
-    width: 250px;
-    height: 50px;
-    padding: 10px;
-    border: 3px magenta dashed;
+    text-transform: uppercase;
 }
 
 .europe-container {
@@ -257,7 +250,7 @@ footer {
     margin: auto;
 }
 
-.destinations-info {
+.destination-info {
     height: 100%;
     border: 2px dashed cyan;
     text-align: center;
