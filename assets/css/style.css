@@ -93,6 +93,7 @@ nav {
     background-size: cover;
     border: 5px dashed blue;
     margin: auto;
+    scroll-margin-top: 100px;
 }
 
 .tagline h1 {
@@ -100,7 +101,7 @@ nav {
     color: #F3F0EE;
     text-align: center;
     margin: auto;
-    padding-top: 100px;
+    padding-top: 150px;
 }
 /*----------------------------------------Home Page Top Hero Image*/
 
@@ -141,14 +142,38 @@ mark {
     margin: auto
 }
 
-.destinations-link a {
-    background-color: #b02841 !important; 
+.destinations-link a { 
+    text-transform: uppercase;
+    margin-top: 50px;
+    width: 400px;
+    height: 70px;
+    border-radius: 20px;
+    font-size: 38px;
+    border-color: #b02841;
 }
 
-.sign-up-link a {
-    background-color: #b02841 !important; 
+.sign-up-link a { 
+    text-transform: uppercase;
+    margin-top: 60px;
+    width: 400px;
+    height: 70px;
+    border-radius: 20px;
+    font-size: 38px;
+    border-color: #b02841;
 }
 
+.destinations-btn-hover {
+    background-color: #2f2d2e;
+}
+
+.bg-color {
+    background-color: #b02841;
+}
+
+.bg-color:hover {
+    background-color: #b4170c;
+    border-color: #b02841;
+}
 /*----------------------------------------Home Page Bottom Hero Image*/
 
 /*----------------------------------------Footer Section*/
@@ -211,25 +236,19 @@ footer {
     margin: auto;
  }
 
- .destinations-button {
-    text-transform: uppercase;
-    color: #F3F0EE;
-    text-align: center;
-    margin: auto;
-    padding-top: 100px;
-}
-
 .destinations-title-btn {
     text-transform: uppercase;
     background-color: #b02841;
     color: #F3F0EE;
-    text-align: center
+    text-align: center;
+    margin-top: 125px;
 }
 
 .destination-name-btn {
     background-color: #b02841 !important; 
     margin: auto;
     text-transform: uppercase;
+    margin-top: 10px;
 }
 
 .europe-container {
