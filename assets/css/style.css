@@ -295,7 +295,6 @@ footer {
     background-color: #b02841 !important;  
 }
 
-
 /*----------------------------------------Destinations Page*/
 
 /*----------------------------------------Gallery Page*/
@@ -379,6 +378,7 @@ label {
     background-color: lightgrey;
     text-transform: uppercase;
     width: 300px;
+    margin: auto;
     margin-left: 155px;
     margin-top: 5px;
     border-radius: 20px;
