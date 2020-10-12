@@ -262,6 +262,10 @@ footer {
     border-radius: 25px;
 }
 
+.btn.disabled, .btn:disabled {
+    opacity: 1;
+}
+
 .europe-container {
     height: 100%;
     border: 2px dashed red;
@@ -292,7 +296,7 @@ footer {
 }
 
 .destinations-title a {
-    background-color: #b02841 !important;  
+    background-color: #b02841 !important; 
 }
 
 /*----------------------------------------Destinations Page*/
