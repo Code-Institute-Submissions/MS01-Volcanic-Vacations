@@ -312,7 +312,7 @@ footer {
 }
 
 .destination-info {
-    height: 175px;
+    height: auto;
     border: 2px dashed cyan;
     text-align: center;
     font-size: 16px;
