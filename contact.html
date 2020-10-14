@@ -1,117 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <title>Volcanic Vacations</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+		integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+		integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<title>Volcanic Vacations</title>
 </head>
 
 <body>
 
-<!--Responsive Navigation Bar-->   
-
-      <nav  class="navbar navbar-expand-md fixed-top navbar-dark navmenu">
-        <a href="index.html" class="navbar-brand">Volcanic Vacations</a>
-            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarmenu">
+	<!--Responsive Navigation Bar-->
+	<nav class="navbar navbar-expand-md fixed-top navbar-dark navmenu">
+		<a href="index.html" class="navbar-brand">Volcanic Vacations</a>
+		<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarmenu">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarmenu">
-              <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a></li>
-                    <li>
-                        <a class="nav-link" href="destinations.html">Destinations</a></li>
-                    <li>
-                        <a class="nav-link" href="gallery.html">Gallery</a></li>
-                    <li>
-                        <a class="nav-link" href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-     </nav>
+		<div class="collapse navbar-collapse" id="navbarmenu">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="index.html">
+						Home
+					</a>
+				</li>
+				<li>
+					<a class="nav-link" href="destinations.html">
+						Destinations
+					</a>
+				</li>
+				<li>
+					<a class="nav-link" href="gallery.html">
+						Gallery
+					</a>
+				</li>
+				<li>
+					<a class="nav-link" href="contact.html">
+						Contact
+					</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
 
-<!--Responsive Navigation Bar-->   
+	<!--Contact Page Heading-->
+	<section class="contact-us-heading">
+		<div class="col-sm-12">
+			<h4 class="text-uppercase">Contact Us</h4>
+		</div>
+	</section>
 
-<!--Contact Page Heading-->  
-
-   <section class="contact-us-heading">
-        <div class="col-sm-12">
-            <h4 class="text-uppercase">Contact Us</h4>
-        </div>
-   </section>
-
-<!--Contact Page Heading-->          
-
-<!--Contact Form-->  
-
-<div class="container form-container">
-    <div class="row">
-        <div class="col-sm-10 col-md-8 col-lg-6">
-            <form class="contact-form" action="#" method="get">
-                <div class="contact-form-intro-text">
-                    <p>Feel free to get in touch with us if you have any questions about our destinations or tours. We’re happy to answer anything which you might be unsure about and we’ll get back to you within 24 hours to answer your query</p>
-                    <p>Also, if you’d like to be among the first to know about our upcoming tours then please join our mailing list to receive instant updates and our quarterly ‘Volcanic Vacations’ newsletter straight to your email inbox</p>
-                </div>
-                <div>
-                    <label for="firstname" class="form-label">First Name</label>
-                    <input type="text" class="form-control" id="firstname" placeholder="First Name" required>
-                </div>
-
-                <div>
-                    <label for="lastname" class="form-label">Last Name</label>
-                    <input type="text" class="form-control" id="lastname" placeholder="Last Name" required>
-                </div>
-
-                <div>
-                    <label for="email" class="form-label">Your Email</label>
-                    <input type="email" class="form-control" id="email" placeholder="Email" required>
-                </div>
-
-                <div>
-                    <label for="subject" class="form-label">Subject</label>
-                    <input type="text" class="form-control" id="subject" placeholder="Subject">
-                </div>
-
-                <div>
-                    <label for="message" class="form-label">Your Message</label>
-                    <textarea class="form-control" id="message" rows="4"></textarea>
+	<!--Contact Form-->
+	<div class="container form-container">
+		<div class="row">
+			<div class="col-sm-10 col-md-8 col-lg-6">
+				<form class="contact-form" action="#" method="get">
+					<div class="contact-form-intro-text">
+						<p>
+							Feel free to get in touch with us if you have any questions about our destinations or tours.
+							We’re happy to answer anything which you might be unsure about and we’ll get back to you
+							within 24 hours to answer your query
+						</p>
+						<p>
+							Also, if you’d like to be among the first to know about our upcoming tours then please join
+							our mailing list to receive instant updates and our quarterly ‘Volcanic Vacations’
+							newsletter straight to your email inbox
+						</p>
+					</div>
+					<div>
+						<label for="firstname" class="form-label">First Name</label>
+						<input type="text" class="form-control" id="firstname" placeholder="First Name" required>
                 </div>
 
-                <div>
-                    <button class="btn btn-danger" type="submit">Sign Up!!</button>
+						<div>
+							<label for="lastname" class="form-label">Last Name</label>
+							<input type="text" class="form-control" id="lastname" placeholder="Last Name" required>
                 </div>
-            </form>
-        </div>
-    </div>
-</div>
-    
-<!--Contact Form-->  
 
-<!--Footer and Social Media Links-->
+							<div>
+								<label for="email" class="form-label">Your Email</label>
+								<input type="email" class="form-control" id="email" placeholder="Email" required>
+                </div>
 
-<footer class="sticky-footer footer-color">
-        <div id="footer-items" class="row">
-            <div class="col-md-12">
-                <ul class="social-network-icons">
-                    <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a></li>
-                    <li><a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                    <li><a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a></li>
-                    <li><a href="https://www.pinterest.co.uk/" target="_blank"><i class="fab fa-pinterest"></i></a></li>
-                </ul>
-            </div>
-        </div>
-</footer>
+								<div>
+									<label for="subject" class="form-label">Subject</label>
+									<input type="text" class="form-control" id="subject" placeholder="Subject">
+                </div>
 
-<!--Footer and Social Media Links-->
+									<div>
+										<label for="message" class="form-label">Your Message</label>
+										<textarea class="form-control" id="message" rows="4"></textarea>
+									</div>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+									<div>
+										<button class="btn btn-danger" type="submit">Sign Up!!</button>
+									</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<!--Footer and Social Media Links-->
+	<footer class="sticky-footer footer-color">
+		<div id="footer-items" class="row">
+			<div class="col-md-12">
+				<ul class="social-network-icons">
+					<li>
+						<a href="https://www.facebook.com/" target="_blank">
+							<i class="fab fa-facebook"></i>
+						</a>
+					</li>
+					<li>
+						<a href="https://www.twitter.com/" target="_blank">
+							<i class="fab fa-twitter"></i>
+						</a>
+					</li>
+					<li>
+						<a href="https://www.instagram.com/" target="_blank">
+							<i class="fab fa-instagram"></i>
+						</a>
+					</li>
+					<li>
+						<a href="https://www.youtube.com/" target="_blank">
+							<i class="fab fa-youtube"></i>
+						</a>
+					</li>
+					<li>
+						<a href="https://www.pinterest.co.uk/" target="_blank">
+							<i class="fab fa-pinterest"></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+		integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+	</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+		integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+	</script>
 
 </body>
-   
 </html>
