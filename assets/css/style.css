@@ -112,19 +112,16 @@ nav a:hover {
 /*----------------------------------------Home Page text*/
 
 .intro-text-container {
-    padding: 5px;
     margin: 0 auto;
     width: 80%;
-    padding-left: 125px;
-    padding-right: 125px;
     color: #2f2d2e;
     border: 5px dashed green;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.intro-text p {
-    margin: 5px;
+.intro-text {
+    margin: auto;
     text-align: center;
 }
 
@@ -151,8 +148,8 @@ mark {
 .destinations-link a { 
     text-transform: uppercase;
     margin-top: 50px;
-    width: 400px;
-    height: 70px;
+    width: 40%;
+    height: auto;
     border-radius: 25px;
     font-size: 38px;
     font-weight: 500;
@@ -162,7 +159,7 @@ mark {
 .sign-up-link a { 
     text-transform: uppercase;
     margin-top: 60px;
-    width: 400px;
+    width: 40%;
     height: 70px;
     border-radius: 25px;
     font-size: 38px;
@@ -229,6 +226,24 @@ footer {
 }
  
 /*----------------------------------------Footer Section*/
+
+/*----------------------------------------Home Page Media Queries*/
+
+@media screen and (max-width: 800px) {
+    .intro-text {
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width: 943px) {
+    .intro-text {
+        width: 75%;
+    }
+}
+
+/*----------------------------------------Home Page Media Queries*/
+
 /*----------------------------------------Home Page*/
 
 /*----------------------------------------Destinations Page*/
@@ -288,26 +303,12 @@ footer {
     font-size: 12px;
 }
 
-.europe-container {
-    height: 300px;
+.destinations-container {
+    height: auto;
     border: 2px dashed red;
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
-}
-
-.americas-container {
-    height: 300px;
-    border: 2px dashed green;
-    margin: auto;
-    margin-top: 10px;
-}
-
-.asia-container {
-    height: 300px;
-    border: 2px dashed blue;
-    margin: auto;
-    margin-top: 10px;
 }
 
 .destination-info {
@@ -384,8 +385,8 @@ footer {
     font-weight: 400;
     margin: auto;
     text-transform: uppercase;
-    max-width: 500px;
-    max-height: 780px;
+    max-width: 80%;
+    max-height: auto;
     display: block;
     border: 2px solid #b02841;
     padding: 20px;
