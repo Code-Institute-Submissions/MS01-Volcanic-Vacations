@@ -166,10 +166,6 @@ mark {
     border-color: #b02841;
 }
 
-.destinations-btn-hover {
-    background-color: #2f2d2e;
-}
-
 .bg-color {
     background-color: #b02841;
 }
@@ -224,6 +220,10 @@ footer {
     background-color: #2f2d2e;
 }
 
+.social-network-icons i:hover {
+    background-color: rgba(229, 229, 229, 0.13);
+}
+ 
 /*----------------------------------------Footer Section*/
 /*----------------------------------------Home Page*/
 
@@ -270,7 +270,7 @@ footer {
     opacity: 1;
 }
 
-.enquire-book-btn {
+.enquire-btn {
     background-color: #b02841 !important; 
     margin: auto;
     text-transform: uppercase;
@@ -319,6 +319,11 @@ footer {
 
 .destinations-title a {
     background-color: #b02841 !important; 
+}
+
+.bg-color:hover {
+    background-color: #c73c32;
+    border-color: #b02841;
 }
 
 /*----------------------------------------Destinations Page*/
