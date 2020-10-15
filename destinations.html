@@ -1,314 +1,400 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <title>Volcanic Vacations</title>
+  </head>
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-		integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
-		integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<title>Volcanic Vacations</title>
-</head>
+  <body>
+    <!--Responsive Navigation Bar-->
+    <nav class="navbar navbar-expand-md fixed-top navbar-dark navmenu">
+      <a href="index.html" class="navbar-brand">Volcanic Vacations</a>
+      <button
+        class="navbar-toggler"
+        data-toggle="collapse"
+        data-target="#navbarmenu"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarmenu">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">
+              Home
+            </a>
+          </li>
+          <li>
+            <a class="nav-link" href="destinations.html">
+              Destinations
+            </a>
+          </li>
+          <li>
+            <a class="nav-link" href="gallery.html">
+              Gallery
+            </a>
+          </li>
+          <li>
+            <a class="nav-link" href="contact.html">
+              Contact
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-<body>
+    <!--Home Page Top Hero Image-->
+    <div class="container destinations-hero-image">
+      <div class="row">
+        <div class="col-12 text-center align-middle">
+          <div class="destinations-title">
+            <a
+              class="btn btn-primary custom-btn btn-lg bg-color destinations-title-btn disabled"
+              id="btn-sm-link01"
+              href="#"
+              role="button"
+              >Destinations
+              </a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
 
-	<!--Responsive Navigation Bar-->
-	<nav class="navbar navbar-expand-md fixed-top navbar-dark navmenu">
-		<a href="index.html" class="navbar-brand">Volcanic Vacations</a>
-		<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarmenu">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-		<div class="collapse navbar-collapse" id="navbarmenu">
-			<ul class="navbar-nav ml-auto">
-				<li class="nav-item">
-					<a class="nav-link" href="index.html">
-						Home
-					</a>
-				</li>
-				<li>
-					<a class="nav-link" href="destinations.html">
-						Destinations
-					</a>
-				</li>
-				<li>
-					<a class="nav-link" href="gallery.html">
-						Gallery
-					</a>
-				</li>
-				<li>
-					<a class="nav-link" href="contact.html">
-						Contact
-					</a>
-				</li>
-			</ul>
-		</div>
-	</nav>
+    <!--Destinations Details-->
+    <div class="container destinations-container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+          <div class="col-12 text-center destination-name">
+            <a
+              class="btn btn-primary custom-btn btn-lg bg-color destination-name-btn disabled"
+              href="#"
+              role="button">
+              Canaries
+            </a>
+          </div>
+          <div class="col-12 destination-info">
+            <p>
+              Our 7 day Spanish Canary Islands tour includes visits to Cueva del
+              Viento lava tube and Teide National Park World Heritage Site on
+              Tenerfie, Garajonay National Park World Heritage Site on La
+              Gomera, Caldera de Taburiente National Park on La Palma and
+              Timanfaya National Park on Lanzarote
+            </p>
+          </div>
+          <div class="text-center enquire-link">
+            <a
+              class="btn btn-primary custom-btn btn-md bg-color enquire-book-btn-hover"
+              href="contact.html"
+              role="button"
+            >
+              Enquire/Book
+            </a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+          <div class="col-12 text-center destination-name">
+            <a
+              class="btn btn-primary custom-btn btn-lg bg-color destination-name-btn disabled"
+              href="#"
+              role="button"
+            >
+              Iceland
+            </a>
+          </div>
+          <div class="col-12 destination-info">
+            <p>
+              On Our 7 day tour to ‘The Land of Fire and Ice’ we visit Reykjanes
+              Geopark, ‘The Golden Circle’ of Geysir, Gullfoss waterfall and
+              Thingvellir National Park, the island of Heimaey, Seljalandsfoss
+              waterfall, Vatnajokull National Park, Skogafoss waterfall,
+              Jokulsarlon Lagoon, Dettifoss waterfall and Krafla
+            </p>
+          </div>
+          <div class="text-center enquire-link">
+            <a
+              class="btn btn-primary custom-btn btn-md bg-color enquire-book-btn-hover"
+              href="contact.html"
+              role="button"
+            >
+              Enquire/Book
+            </a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+          <div class="col-12 text-center destination-name">
+            <a
+              class="btn btn-primary custom-btn btn-lg bg-color destination-name-btn disabled"
+              href="#"
+              role="button"
+            >
+              Italy
+            </a>
+          </div>
+          <div class="col-12 destination-info">
+            <p>
+              Our 7 day tour to Italy features all 5 active Italian volcanoes.
+              Vulcano and Stromboli are located in the Aeolian Islands. We then
+              visit Europe’s highest volcano, Sicily’s Mount Etna. In the Naples
+              region we visit Mount Vesuvius and Campei Flegrei. We also visit
+              Pompeii and Herculaneum World Heritage Sites
+            </p>
+          </div>
+          <div class="text-center enquire-link">
+            <a
+              class="btn btn-primary custom-btn btn-md bg-color enquire-book-btn-hover"
+              href="contact.html"
+              role="button"
+            >
+              Enquire/Book
+            </a>
+          </div>
+        </div>
+      </div>
 
-	<!--Home Page Top Hero Image-->
-	<div class="container destinations-hero-image">
-		<div class="row">
-			<div class="col-12 text-center align-middle">
-				<div class="destinations-title">
-					<a class="btn btn-primary custom-btn btn-lg bg-color destinations-title-btn disabled"
-						id="btn-sm-link01" href="#" role="button">Destinations</a>
-				</div>
-			</div>
-		</div>
-	</div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+          <div class="col-12 text-center destination-name">
+            <a
+              class="btn btn-primary custom-btn btn-lg bg-color destination-name-btn disabled"
+              href="#"
+              role="button"
+            >
+              Ecuador
+            </a>
+          </div>
+          <div class="col-12 destination-info">
+            <p>
+              Our 10 day Ecuador tour visits the volcanic crater lake of
+              Cuicocha, the ‘Avenue of the Volcanoes’ including Cotopaxi
+              National Park and the surrounding volcanoes, Rumiñahui,
+              Sincholagua, Pasachoa and Antisana, the dazzling emerald-green
+              Laguna Quilotoa and ‘The Route of the Waterfalls’
+            </p>
+          </div>
+          <div class="text-center enquire-link">
+            <a
+              class="btn btn-primary custom-btn btn-md bg-color enquire-book-btn-hover"
+              href="contact.html"
+              role="button"
+              >Enquire/Book</a
+            >
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+          <div class="col-12 text-center destination-name">
+            <a
+              class="btn btn-primary custom-btn btn-lg bg-color destination-name-btn disabled"
+              href="#"
+              role="button"
+            >
+              Hawaii
+            </a>
+          </div>
+          <div class="col-12 destination-info">
+            <p>
+              On our 10 day Hawaii tour we visit the Volcanoes National Park
+              where we explore the Thurston Lava Tube and follow the ‘Crater Rim
+              Drive’ around the Kilauea caldera, Rainbow Falls and Akaka Falls
+              in the tropical rainforest region and also the astronomical
+              observatories on the summit of Mauna Kea
+            </p>
+          </div>
+          <div class="text-center enquire-link">
+            <a
+              class="btn btn-primary custom-btn btn-md bg-color enquire-book-btn-hover"
+              href="contact.html"
+              role="button"
+            >
+              Enquire/Book
+            </a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+          <div class="col-12 text-center destination-name">
+            <a
+              class="btn btn-primary custom-btn btn-lg bg-color destination-name-btn disabled"
+              href="#"
+              role="button"
+            >
+              US Pacific NW
+            </a>
+          </div>
+          <div class="col-12 destination-info">
+            <p>
+              Our 10 day tour of the Cascades range volcanoes of Washington and
+              Oregon states visits Mount Rainier National Park with views of the
+              Emmons glacier, Mount St Helens and Spirit Lake, Mount Hood, the
+              spectacular Columbia River gorge and the Multnoma Falls, the 4th
+              highest waterfall in the USA
+            </p>
+          </div>
+          <div class="text-center enquire-link">
+            <a
+              class="btn btn-primary custom-btn btn-md bg-color enquire-book-btn-hover"
+              href="contact.html"
+              role="button"
+            >
+              Enquire/Book
+            </a>
+          </div>
+        </div>
+      </div>
 
-	<!--Destinations Details-->
-	<div class="container destinations-container">
-		<div class="row">
-			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-				<div class="col-12 text-center destination-name">
-					<a class="btn btn-primary custom-btn btn-lg bg-color destination-name-btn disabled" href="#"
-						role="button">
-						Canaries
-					</a>
-				</div>
-				<div class="col-12 destination-info">
-					<p>
-						Our 7 day Canary Islands tour includes visits to Cueva del Viento lava tube and Teide National
-						Park World Heritage Site on Tenerfie, Garajonay National Park World Heritage Site on La Gomera,
-						Caldera de Taburiente National Park on La Palma and Timanfaya National Park on Lanzarote
-					</p>
-				</div>
-				<div class=" text-center enquire-link">
-					<a class="btn btn-primary custom-btn btn-md bg-color enquire-book-btn-hover" href="contact.html"
-						role="button">
-						Enquire/Book
-					</a>
-				</div>
-			</div>
-			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-				<div class="col-12 text-center destination-name">
-					<a class="btn btn-primary custom-btn btn-lg bg-color destination-name-btn disabled" href="#"
-						role="button">
-						Iceland
-					</a>
-				</div>
-				<div class="col-12 destination-info">
-					<p>
-						On Our 7 day tour to ‘The Land of Fire and Ice’ we visit Reykjanes Geopark, ‘The Golden Circle’
-						of Geysir, Gullfoss waterfall and Thingvellir National Park, the island of Heimaey,
-						Seljalandsfoss waterfall, Vatnajokull National Park, Skogafoss waterfall, Jokulsarlon Lagoon,
-						Dettifoss waterfall and Krafla
-					</p>
-				</div>
-				<div class=" text-center enquire-link">
-					<a class="btn btn-primary custom-btn btn-md bg-color enquire-book-btn-hover" href="contact.html"
-						role="button">
-						Enquire/Book
-					</a>
-				</div>
-			</div>
-			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-				<div class="col-12 text-center destination-name">
-					<a class="btn btn-primary custom-btn btn-lg bg-color destination-name-btn disabled" href="#"
-						role="button">
-						Italy
-					</a>
-				</div>
-				<div class="col-12 destination-info">
-					<p>
-						Our 7 day tour to Italy features all 5 active Italian volcanoes. Vulcano and Stromboli are
-						located in the Aeolian Islands. We then visit Europe’s highest volcano, Sicily’s Mount Etna. In
-						the Naples region we visit Mount Vesuvius and Campei Flegrei. We also visit Pompeii and
-						Herculaneum World Heritage Sites
-					</p>
-				</div>
-				<div class=" text-center enquire-link">
-					<a class="btn btn-primary custom-btn btn-md bg-color enquire-book-btn-hover" href="contact.html"
-						role="button">
-						Enquire/Book
-					</a>
-				</div>
-			</div>
-		</div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+          <div class="col-12 text-center destination-name">
+            <a
+              class="btn btn-primary custom-btn btn-lg bg-color destination-name-btn disabled"
+              href="#"
+              role="button"
+            >
+              Indonesia
+            </a>
+          </div>
+          <div class="col-12 destination-info">
+            <p>
+              Our 12 day Indonesian tour begins in West Java where we explore
+              Krakatau, Papandayan and Galunggung volcanoes. Then in Central
+              Java, Merapi volcano is our destination. Finally we move on to
+              East Java where we encounter the Tengger caldera and Bromo, Semeru
+              and Ijen volcanoes
+            </p>
+          </div>
+          <div class="text-center enquire-link">
+            <a
+              class="btn btn-primary custom-btn btn-md bg-color enquire-book-btn-hover"
+              href="contact.html"
+              role="button"
+            >
+              Enquire/Book
+            </a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+          <div class="col-12 text-center destination-name">
+            <a
+              class="btn btn-primary custom-btn btn-lg bg-color destination-name-btn disabled"
+              href="#"
+              role="button"
+            >
+              Japan
+            </a>
+          </div>
+          <div class="col-12 destination-info">
+            <p>
+              Our 12 day tour to the ‘Land of the Rising Sun’ starts on the
+              northern island of Hokkaido where we visit Akan National Park and
+              Shikotsu-Tōya National Park. On Honshu we visit Towada-Hachimantai
+              National Park, Mount Fuji and Mount Asama. On Kyushu we visit
+              Mount Aso, Sakurajima and Tsurumi volcanoes
+            </p>
+          </div>
+          <div class="text-center enquire-link">
+            <a
+              class="btn btn-primary custom-btn btn-md bg-color enquire-book-btn-hover"
+              href="contact.html"
+              role="button"
+            >
+              Enquire/Book
+            </a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+          <div class="col-12 text-center destination-name">
+            <a
+              class="btn btn-primary custom-btn btn-lg bg-color destination-name-btn disabled"
+              href="#"
+              role="button"
+            >
+              New Zealand
+            </a>
+          </div>
+          <div class="col-12 destination-info">
+            <p>
+              Our 12 day trip ‘Down Under’ begins on the North Island where we
+              visit Rotorua and Taupo volcanic zones, White Island, Tongariro
+              National Park, Mount Taranaki, Mount Ruapehu, MountTarawera and
+              Mount Ngauruhoe. On the South Island we visit Fiordland, the
+              Southern Alps and Mount Cook
+            </p>
+          </div>
+          <div class="text-center enquire-link">
+            <a
+              class="btn btn-primary custom-btn btn-md bg-color enquire-book-btn-hover"
+              href="contact.html"
+              role="button"
+            >
+              Enquire/Book
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
 
-	<div class="row">
-		<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-			<div class="col-12 text-center destination-name">
-				<a class="btn btn-primary custom-btn btn-lg bg-color destination-name-btn disabled" href="#"
-					role="button">
-					Ecuador
-				</a>
-			</div>
-			<div class="col-12 destination-info">
-				<p>
-					Our 10 day Ecuador tour visits locations such as the active volcanic crater lake of Cuicocha, the
-					‘Avenue of the Volcanoes’ including Cotopaxi National Park and the surrounding volcanoes,
-					Rumiñahui, Sincholagua, Pasachoa and Antisana, the dazzling emerald-green Laguna Quilotoa and
-					‘The Route of the Waterfalls’
-				</p>
-			</div>
-			<div class=" text-center enquire-link">
-				<a class="btn btn-primary custom-btn btn-md bg-color enquire-book-btn-hover" href="contact.html"
-					role="button">Enquire/Book</a>
-			</div>
-		</div>
-		<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-			<div class="col-12 text-center destination-name">
-				<a class="btn btn-primary custom-btn btn-lg bg-color destination-name-btn disabled" href="#"
-					role="button">
-					Hawaii
-				</a>
-			</div>
-			<div class="col-12 destination-info">
-				<p>
-					On our 10 day Hawaii tour we visit the Volcanoes National Park where we explore the Thurston Lava
-					Tube and follow the ‘Crater Rim Drive’ around the Kilauea caldera, Rainbow Falls and Akaka Falls
-					in the tropical rainforest region and also the astronomical observatories on the summit of Mauna Kea
-				</p>
-			</div>
-			<div class=" text-center enquire-link">
-				<a class="btn btn-primary custom-btn btn-md bg-color enquire-book-btn-hover" href="contact.html"
-					role="button">
-					Enquire/Book
-				</a>
-			</div>
-		</div>
-		<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-			<div class="col-12 text-center destination-name">
-				<a class="btn btn-primary custom-btn btn-lg bg-color destination-name-btn disabled" href="#"
-					role="button">
-					US Pacific NW
-				</a>
-			</div>
-			<div class="col-12 destination-info">
-				<p>
-					Our 10 day tour of the Cascades range volcanoes of Washington and Oregon states visits Mount
-					Rainier National Park with views of the Emmons glacier, Mount St Helens and Spirit Lake, Mount
-					Hood, the spectacular Columbia River gorge and the Multnoma Falls, the 4th highest waterfall in the
-					USA
-				</p>
-			</div>
-			<div class=" text-center enquire-link">
-				<a class="btn btn-primary custom-btn btn-md bg-color enquire-book-btn-hover" href="contact.html"
-					role="button">
-					Enquire/Book
-				</a>
-			</div>
-		</div>
-	</div>
+    <!--Footer and Social Media Links-->
+    <footer class="sticky-footer footer-color">
+      <div id="footer-items" class="row">
+        <div class="col-md-12">
+          <ul class="social-network-icons">
+            <li>
+              <a href="https://www.facebook.com/" target="_blank">
+                <i class="fab fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.twitter.com/" target="_blank">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/" target="_blank">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.pinterest.co.uk/" target="_blank">
+                <i class="fab fa-pinterest"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
 
-		<div class="row">
-			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-				<div class="col-12 text-center destination-name">
-					<a class="btn btn-primary custom-btn btn-lg bg-color destination-name-btn disabled" href="#"
-						role="button">
-						Indonesia
-					</a>
-				</div>
-				<div class="col-12 destination-info">
-					<p>
-						Our 12 day Indonesian tour begins in West Java where we explore Krakatau, Papandayan and
-						Galunggung volcanoes. Then in Central Java, Merapi volcano is our destination. Finally we move
-						on to East Java where we encounter the Tengger caldera and Bromo, Semeru and Ijen volcanoes
-					</p>
-				</div>
-				<div class=" text-center enquire-link">
-					<a class="btn btn-primary custom-btn btn-md bg-color enquire-book-btn-hover" href="contact.html"
-						role="button">
-						Enquire/Book
-					</a>
-				</div>
-			</div>
-			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-				<div class="col-12 text-center destination-name">
-					<a class="btn btn-primary custom-btn btn-lg bg-color destination-name-btn disabled" href="#"
-						role="button">
-						Japan
-					</a>
-				</div>
-				<div class="col-12 destination-info">
-					<p>
-						Our 12 day tour to the ‘Land of the Rising Sun’ starts on the northern island of Hokkaido where
-						we visit Akan National Park and Shikotsu-Tōya National Park. On Honshu we visit
-						Towada-Hachimantai National Park, Mount Fuji and Mount Asama. On Kyushu we visit Mount Aso,
-						Sakurajima and Tsurumi volcanoes
-					</p>
-				</div>
-				<div class=" text-center enquire-link">
-					<a class="btn btn-primary custom-btn btn-md bg-color enquire-book-btn-hover" href="contact.html"
-						role="button">
-						Enquire/Book
-					</a>
-				</div>
-			</div>
-			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-				<div class="col-12 text-center destination-name">
-					<a class="btn btn-primary custom-btn btn-lg bg-color destination-name-btn disabled" href="#"
-						role="button">
-						New Zealand
-					</a>
-				</div>
-				<div class="col-12 destination-info">
-					<p>
-						Our 12 day trip ‘Down Under’ begins on the North Island where we visit Rotorua and Taupo
-						volcanic zones, White Island, Tongariro National Park, Mount Taranaki, Mount Ruapehu,
-						MountTarawera and Mount Ngauruhoe. On the South Island we visit Fiordland, the Southern Alps and
-						Mount Cook
-					</p>
-				</div>
-				<div class=" text-center enquire-link">
-					<a class="btn btn-primary custom-btn btn-md bg-color enquire-book-btn-hover" href="contact.html"
-						role="button">
-						Enquire/Book
-					</a>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!--Footer and Social Media Links-->
-	<footer class="sticky-footer footer-color">
-		<div id="footer-items" class="row">
-			<div class="col-md-12">
-				<ul class="social-network-icons">
-					<li>
-						<a href="https://www.facebook.com/" target="_blank">
-							<i class="fab fa-facebook"></i>
-						</a>
-					</li>
-					<li>
-						<a href="https://www.twitter.com/" target="_blank">
-							<i class="fab fa-twitter"></i>
-						</a>
-					</li>
-					<li>
-						<a href="https://www.instagram.com/" target="_blank">
-							<i class="fab fa-instagram"></i>
-						</a>
-					</li>
-					<li>
-						<a href="https://www.youtube.com/" target="_blank">
-							<i class="fab fa-youtube"></i>
-						</a>
-					</li>
-					<li>
-						<a href="https://www.pinterest.co.uk/" target="_blank">
-							<i class="fab fa-pinterest"></i>
-						</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</footer>
-
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-	</script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-		integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
-	</script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-		integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
-	</script>
-
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
