@@ -96,6 +96,9 @@ This website has four seperate pages. Each page can be accessed by clicking on t
 - The gallery page contains a selection of volcano photographs from the locations which are listed on the 'Destinations' page. The column count will responsively change between different device and screen sizes.
 
 ### Features to implement in the future
+
+In the future I would look to add more trip locations to the destinations page, such as Costa Rica, Santorini and Alaska.
+
 I initially wanted to include a Tours page which would give dates and prices for each of the available locations. I found this page to be too busy and complicated for my website at the present time and it's inclusion would not have provided a good user experience. Therefore at this time I have decided not to included it. I may at some future point look to add this page again.
 
 Although beyond the scope of this project I believe an extra feature that would enhance the website would be the addition of videos of previous trips. This I feel would really help to sell these locations and trips to future clients
@@ -214,36 +217,34 @@ The content of this website is completely fictional and all code and text is wri
 
 ### Media
 
-### Acknowledgements
-
-The following images were sourced from [Unsplash](https://unsplash.com/).
+The following images were sourced from [Unsplash](https://unsplash.com/) and [Pexels](https://www.pexels.com/).
 
 - *Home page* 
 
-  * [Top Hero image](https://www.pexels.com/photo/photo-of-a-man-using-laptop-3771790/)
+  * [Top Hero image](https://unsplash.com/photos/VbP9v1rh-sc)
 
-  * [Bottom Hero image](https://www.pexels.com/photo/photo-of-a-man-using-laptop-3771790/)
+  * [Bottom Hero image](https://unsplash.com/photos/h5cYy5OHDWM)
 
 - *Destinations page* 
 
-    * [Hero image](https://www.pexels.com/photo/photo-of-a-man-using-laptop-3771790/)   
+    * [Hero image](https://unsplash.com/photos/A24aX-QwTZk)   
 
 - *Gallery page* 
 
-    * [Gallery image 1](https://www.pexels.com/photo/photo-of-a-man-using-laptop-3771790/)
-    * [Gallery image 2](https://www.pexels.com/photo/photo-of-a-man-using-laptop-3771790/)
-    * [Gallery image 3](https://www.pexels.com/photo/photo-of-a-man-using-laptop-3771790/)
-    * [Gallery image 4](https://www.pexels.com/photo/photo-of-a-man-using-laptop-3771790/)
-    * [Gallery image 5](https://www.pexels.com/photo/photo-of-a-man-using-laptop-3771790/)
-    * [Gallery image 6](https://www.pexels.com/photo/photo-of-a-man-using-laptop-3771790/)
-    * [Gallery image 7](https://www.pexels.com/photo/photo-of-a-man-using-laptop-3771790/)
-    * [Gallery image 8](https://www.pexels.com/photo/photo-of-a-man-using-laptop-3771790/)
-    * [Gallery image 9](https://www.pexels.com/photo/photo-of-a-man-using-laptop-3771790/)
-    * [Gallery image 10](https://www.pexels.com/photo/photo-of-a-man-using-laptop-3771790/)
-    * [Gallery image 11](https://www.pexels.com/photo/photo-of-a-man-using-laptop-3771790/)
-    * [Gallery image 12](https://www.pexels.com/photo/photo-of-a-man-using-laptop-3771790/)
+    * [Gallery image 1](https://unsplash.com/photos/FhnhWwTJk0s)
+    * [Gallery image 2](https://www.pexels.com/photo/volcano-erupting-at-night-under-starry-sky-4220967/)
+    * [Gallery image 3](https://www.pexels.com/photo/blue-and-green-sky-and-mountain-3617500/)
+    * [Gallery image 4](https://unsplash.com/photos/LAey-PFjHBU)
+    * [Gallery image 5](https://www.pexels.com/photo/active-ash-cloud-ashes-blaze-417070/)
+    * [Gallery image 6](https://www.pexels.com/photo/white-and-blue-concrete-building-near-body-of-water-3727255/)
+    * [Gallery image 7](https://unsplash.com/photos/orQBzc7Dl3U)
+    * [Gallery image 8](https://unsplash.com/photos/Aduh0KXCI1w)
+    * [Gallery image 9](https://unsplash.com/photos/3pC6oFadbF8)
+    * [Gallery image 10](https://www.pexels.com/photo/art-boiling-eruption-fog-261397/)
+    * [Gallery image 11](https://unsplash.com/photos/LgrGHYZzBSk)
+    * [Gallery image 12](https://unsplash.com/photos/WQ5HOvrDZ6Y)
 
-The following images were sourced from [Pexels](https://www.pexels.com/) .
+### Acknowledgements
 
 Thank you to the following people who helped me get my project completed on time with support, inspiration and guidance from start to finish:
 
