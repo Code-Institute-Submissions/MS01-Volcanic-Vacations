@@ -57,3 +57,15 @@ Each page would also have a footer which would contain social media icons.
 
 5. I continued to make adjustments and enhancements to my layout throughout the design process. I initially wanted to include a Tours page which would give dates and prices for each of the available locations. I found this page to be too busy and complicated for my website and would not have provided a good user experience. Therefore at this time I have decided not to included it. I may at some future point look to add this page again.
 
+### Project wireframes
+
+Design for desktop devices:
+![My responsive design for desktop devices](https://fffc9c3c-b10e-4ba2-8f9b-4662e14b2060.ws-eu01.gitpod.io/files/download/?id=f08f4972-9c64-44ed-965a-312c1cf48038)
+
+Design for tablet devices:
+![My responsive design for tablet devices](https://fffc9c3c-b10e-4ba2-8f9b-4662e14b2060.ws-eu01.gitpod.io/files/download/?id=7481d7b8-46d7-48a3-90db-e5ac8279f0c1)
+
+Design for mobile devices:
+![My responsive design for mobile devices](https://fffc9c3c-b10e-4ba2-8f9b-4662e14b2060.ws-eu01.gitpod.io/files/download/?id=3673a23a-65b5-4472-ad5c-c7e0c63eaaea)
+
+[The entire workspace can be viewed on Figma with this link.]()
