@@ -108,6 +108,43 @@ Although beyond the scope of this project I believe an extra feature that would 
 - CSS3  
     * The coding language that is utilised to style the HTML5 elements in accordance with the font styles, colours and layouts selected.
 
+- [Bootstrap 4](https://getbootstrap.com/) 
+    * I utilised bootstrap to create my responsive navigation bar, to create a grid container layout and also to create my contact form.
+
+- [Figma](https://www.figma.com)
+    * Figma was invaluable in helping me to create all my wireframes, from initial concept, through to a final completed design.
+
+- [Google Fonts](https://fonts.google.com/)
+    * Google Fonts was my source for choosing my overall font style for my website.
+
+- [FontAwesome](https://fontawesome.com/) 
+    * My five social media links located in my footer section are sourced from FontAwesome.
+
+- [Unsplash](https://fontawesome.com/) 
+    * Unsplash was the source for my three hero images. A number of the gallery images were also from this website of freely usable images.
+    
+- [Pexels](https://www.pexels.com/) 
+    * Pexels was the source for a number of the gallery images, another website of freely usable images.
+
+- [TinyPNG](https://tinypng.com/) 
+    * I used TinyPNG to compress image files to try to improve the loading time for each page, especially the gallery page.
+
+- [W3C Markup Validation Service](https://validator.w3.org/) 
+    * I used this tool throughout the project to test the validity of my HTML and CSS code.  
+
+- [W3C Schools](https://www.w3schools.com/)
+    * I've refered to WSC Schools frequently during the evolution of my project,
+
+  ### Non technological sources of help, guidance and inspiration  
+
+- [Stack Overflow](https://stackoverflow.com/)
+    * When unsure of a certain piece of HTML or CSS this website was a great source of help.
+
+- [Google](https://www.google.co.uk/)
+    * Found myself asking all kinds of questions on Google. Was able to find a link to an answer most of the time.
+
+- [YouTube](https://www.youtube.com/)
+    * I watched numerous video tutorials on HTML, CSS and Bootstrap 4 throughout the duration of my project.
 
 ### Acknowledgements
 
