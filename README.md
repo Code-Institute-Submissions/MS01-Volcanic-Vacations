@@ -55,17 +55,66 @@ Each page would also have a footer which would contain social media icons.
 
     After experimenting with a number of font styles I finally decided to use one font style throughout the website. The font style that I thought best complimented my site was Saira Semi Bold.
 
-5. I continued to make adjustments and enhancements to my layout throughout the design process. I initially wanted to include a Tours page which would give dates and prices for each of the available locations. I found this page to be too busy and complicated for my website and would not have provided a good user experience. Therefore at this time I have decided not to included it. I may at some future point look to add this page again.
+5. I continued to make adjustments and enhancements to my layout throughout the design process, including layout, photographic content, text content and what features that I had initially planned would be implemented and which would be omitted to a later date.
 
 ### Project wireframes
 
 Design for desktop devices:
-![My responsive design for desktop devices](https://fffc9c3c-b10e-4ba2-8f9b-4662e14b2060.ws-eu01.gitpod.io/files/download/?id=f08f4972-9c64-44ed-965a-312c1cf48038)
+![My responsive design for desktop devices](https://fffc9c3c-b10e-4ba2-8f9b-4662e14b2060.ws-eu01.gitpod.io/files/download/?id=a82c86dc-7105-4f53-93af-db8e4df0f869)
 
 Design for tablet devices:
-![My responsive design for tablet devices](https://fffc9c3c-b10e-4ba2-8f9b-4662e14b2060.ws-eu01.gitpod.io/files/download/?id=7481d7b8-46d7-48a3-90db-e5ac8279f0c1)
+![My responsive design for tablet devices](https://fffc9c3c-b10e-4ba2-8f9b-4662e14b2060.ws-eu01.gitpod.io/files/download/?id=01a60a60-9d6d-4e74-a223-1515cbab7336)
 
 Design for mobile devices:
-![My responsive design for mobile devices](https://fffc9c3c-b10e-4ba2-8f9b-4662e14b2060.ws-eu01.gitpod.io/files/download/?id=3673a23a-65b5-4472-ad5c-c7e0c63eaaea)
+![My responsive design for mobile devices](https://fffc9c3c-b10e-4ba2-8f9b-4662e14b2060.ws-eu01.gitpod.io/files/download/?id=c2ff0597-012a-4aef-a79e-5f7b038809bd)
 
-[The entire workspace can be viewed on Figma with this link.]()
+[The entire workspace can be viewed on Figma with this link.](https://www.figma.com/file/WvstHcIHxZ5BpOl5wDqMQn/Milestone-Project-01_Volcanic-Vacations?node-id=0%3A1)
+
+## Features
+
+### Existing Features
+
+This website has four seperate pages. Each page can be accessed by clicking on the relevant page name on the link menu located within the navigation bar at the top right corner of the home page. On smaller devices and screens sizes they can be accessed within the burger icon menu.
+
+#### Features consistent across all four pages
+
+- A navigation bar header with the *Volcanic Vacations* logo in the top left corner (leads user back to the home page when clicked) and links to each page in the top right corner of the page. These links are "Home', 'Destinations', 'Gallery' and 'Contact'.
+
+- A footer at the bottom of all four pages. This footer contains five social media icons, namely 'Facebook', 'Twitter, 'Instagram', 'YouTube' and 'Pinterest'. When clicked each of these social media icons will open the relevant external website in a new tab, thus preventing the user from navagating away from the 'Volcanic Vacations' website.
+
+#### Home
+- The top hero image contains a bold website tagline.
+- The introduction text vividly describes the 'why' of the website.
+- The bottom hero image contains striking and large link buttons with a hover effect that lead the user to the 'Destinations' and 'Contact' pages. 
+
+#### Destinations
+- A [hero image](https://unsplash.com/photos/A24aX-QwTZk) sourced from [Unsplash](https://unsplash.com/) dominates the top of this page. A bold destinations button is located centrally. This button has been disabled and does not link to anything.
+- Nine location description sections arranged in three rows of three locations each. The first row is for the European locations, the second for the North ans South America locations, and the third for the Asia and Oceania locations.
+- Each of the nine location description sections also contain a bold heading within a disabled button and a enquire/book button, which when clicked will take the user to the contact page.
+
+#### Gallery
+- The gallery page contains a selection of volcano photographs from the locations which are listed on the 'Destinations' page. The column count will responsively change between different device and screen sizes.
+
+### Features to implement in the future
+I initially wanted to include a Tours page which would give dates and prices for each of the available locations. I found this page to be too busy and complicated for my website at the present time and it's inclusion would not have provided a good user experience. Therefore at this time I have decided not to included it. I may at some future point look to add this page again.
+
+Although beyond the scope of this project I believe an extra feature that would enhance the website would be the addition of videos of previous trips. This I feel would really help to sell these locations and trips to future clients
+
+## Technologies used
+
+- HTML5
+    * The coding language that is utilised to structure the overall content of the website.
+
+- CSS3  
+    * The coding language that is utilised to style the HTML5 elements in accordance with the font styles, colours and layouts selected.
+
+
+### Acknowledgements
+
+Thank you to the following people who helped me get my project completed on time with support, inspiration and guidance from start to finish:
+
+- My mentor Seun Owonikoko
+- Fellow student Miranda Thewlis
+- JimLynx_lead on Slack 
+- The huge amount of help from the *Code Institute* community on Slack
+- My family and friends for their patience and honest suggestions throughout the project
