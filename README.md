@@ -60,13 +60,13 @@ Each page would also have a footer which would contain social media icons.
 ### Project wireframes
 
 Design for desktop devices:
-![My responsive design for desktop devices](https://github.com/sruss07/MS1-Project-Volcano-Vacations/tree/master/assets/images/figma_desktop.png)
+![My responsive design for desktop devices](/assets/images/figma_desktop.png)
 
 Design for tablet devices:
-![My responsive design for tablet devices](https://github.com/sruss07/MS1-Project-Volcano-Vacations/tree/master/assets/images/figma_tablet.png)
+![My responsive design for tablet devices](/assets/images/figma_tablet.png)
 
 Design for mobile devices:
-![My responsive design for mobile devices](https://github.com/sruss07/MS1-Project-Volcano-Vacations/tree/master/assets/images/figma_mobile.png)
+![My responsive design for mobile devices](/assets/images/figma_mobile.png)
 
 [The entire workspace can be viewed on Figma with this link.](https://www.figma.com/file/WvstHcIHxZ5BpOl5wDqMQn/Milestone-Project-01_Volcanic-Vacations?node-id=0%3A1)
 
