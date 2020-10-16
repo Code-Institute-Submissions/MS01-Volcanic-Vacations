@@ -36,4 +36,24 @@ The essential requirements for this prject were to produce a  static website wit
 
 5. We are a school or university group learning about volcanoes and geology. We are interested in booking exclusive tours that cater solely for out group due to the large numbers we are likely to have. A smmoth user experience that allows us to seamlessly book for large groups is essentail. We are most likely to visit the website using a laptop or desktop owned by the school or university.
 
-6. 50% of our visitors are expected to be comprised of a retired age as this demographic has more desposible income and time to travel on our type of trips. 25% is expected to be couples and single travellers from the 30 to 65 age range and the final 25% will be a mix of geological societies, groups, school and university trips.
+6. 50% of visitors to the website are expected to be comprised of a retired age as this demographic has more desposible income and time to travel on our type of trips. 25% is expected to be couples and single travellers from the 30 to 65 age range and the final 25% will be a mix of geological societies, groups, school and university trips.
+
+### Design Process
+
+1. The first step I undertook in my design process was to identify the essential pages that I wanted my website to have. I considered how to structure my website to make it a pleasant experience for the end user. This led me to deciding on a four page website. The pages I decided to include were: 'Home', 'Destinations', 'Gallery' and 'Contact'.
+
+2. The first design decision was to include a striking header navigation bar section which would contain the site name and the page links at the top of each page. I decided this header would need to be fully responsive and that the links would collapse into a burger icon on smaller devices and screen sizes.
+Each page would also have a footer which would contain social media icons.
+
+3. I decided to keep the home page as clean as possible. To do this I divided the main area of the page into three sections. The first of the sections contains a hero image with a centered tagline. I used [this image](https://unsplash.com/photos/VbP9v1rh-sc) a striking one showing volcanic lightning which I found on [Unsplash](https://unsplash.com/). The central section contains introduction text explaining the services that the website has set out to fulfill. The lower section contains a second hero image. I used [this image](https://unsplash.com/photos/h5cYy5OHDWM) also from [Unsplash](https://unsplash.com/), overlain by large buttons which link to the destinations page and the contact page. I thought that using these large buttons would provide an obvious and quick way to navigate to these pages.
+
+4. I began a new workspace on [Figma](https://www.figma.com/file/WvstHcIHxZ5BpOl5wDqMQn/Milestone-Project-01_Volcanic-Vacations?node-id=0%3A1) and started to create a number of experimental wireframes to see if I could decide on a final layout for my four pages. I tried using different layouts for each page until I was happy with the layout I eventually coded. I also looked at using a number of different colour combinations before finally deciding to use the following combinations: 
+- (#e5e5e5) overall website background colour
+- (#2f2d2e) all site text not in header or footer, header and footer background colour
+- (#b02841) header and footer text and icons, all buttons background colour
+- (#f3f0ee) home page tagline text, all buttons text
+
+    After experimenting with a number of font styles I finally decided to use one font style throughout the website. The font style that I thought best complimented my site was Saira Semi Bold.
+
+5. I continued to make adjustments and enhancements to my layout throughout the design process. I initially wanted to include a Tours page which would give dates and prices for each of the available locations. I found this page to be too busy and complicated for my website and would not have provided a good user experience. Therefore at this time I have decided not to included it. I may at some future point look to add this page again.
+
