@@ -60,13 +60,13 @@ Each page would also have a footer which would contain social media icons.
 ### Project wireframes
 
 Design for desktop devices:
-![My responsive design for desktop devices](https://fffc9c3c-b10e-4ba2-8f9b-4662e14b2060.ws-eu01.gitpod.io/files/download/?id=a82c86dc-7105-4f53-93af-db8e4df0f869)
+![My responsive design for desktop devices](https://fffc9c3c-b10e-4ba2-8f9b-4662e14b2060.ws-eu01.gitpod.io/files/download/?id=0631b6a4-fbbf-40a4-b2b0-cb4d9d4dd8d7)
 
 Design for tablet devices:
-![My responsive design for tablet devices](https://fffc9c3c-b10e-4ba2-8f9b-4662e14b2060.ws-eu01.gitpod.io/files/download/?id=01a60a60-9d6d-4e74-a223-1515cbab7336)
+![My responsive design for tablet devices](https://fffc9c3c-b10e-4ba2-8f9b-4662e14b2060.ws-eu01.gitpod.io/files/download/?id=123243c1-e46d-46f4-a33e-5bfb86f96c7d)
 
 Design for mobile devices:
-![My responsive design for mobile devices](https://fffc9c3c-b10e-4ba2-8f9b-4662e14b2060.ws-eu01.gitpod.io/files/download/?id=c2ff0597-012a-4aef-a79e-5f7b038809bd)
+![My responsive design for mobile devices](https://fffc9c3c-b10e-4ba2-8f9b-4662e14b2060.ws-eu01.gitpod.io/files/download/?id=db37aa32-c926-4661-ada6-a8ca1efa2b08)
 
 [The entire workspace can be viewed on Figma with this link.](https://www.figma.com/file/WvstHcIHxZ5BpOl5wDqMQn/Milestone-Project-01_Volcanic-Vacations?node-id=0%3A1)
 
