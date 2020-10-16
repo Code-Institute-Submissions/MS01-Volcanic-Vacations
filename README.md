@@ -133,7 +133,10 @@ Although beyond the scope of this project I believe an extra feature that would 
     * I used this tool throughout the project to test the validity of my HTML and CSS code.  
 
 - [W3C Schools](https://www.w3schools.com/)
-    * I've refered to WSC Schools frequently during the evolution of my project,
+    * I've refered to WSC Schools frequently during the evolution of my project
+
+- [CodePen](https://codepen.io/) 
+    * I used CodePen to discover code examples which I could utilise within my website.
 
   ### Non technological sources of help, guidance and inspiration  
 
@@ -146,7 +149,101 @@ Although beyond the scope of this project I believe an extra feature that would 
 - [YouTube](https://www.youtube.com/)
     * I watched numerous video tutorials on HTML, CSS and Bootstrap 4 throughout the duration of my project.
 
+## Testing
+
+### Testing User Stories
+
+Based on my User Stories detailed earlier:
+
+1. The geological professional - they would be able to easily navigate the site to discover the trips and how to book through the contact form. The website would render well on a large screen.
+
+2. The geology enthusiast or amateur - navigating the website to find a suitable trip and enquiring and booking that trip would be simple. The site will render well on the smaller devices and screens they may be using.
+
+3. A general interest in geology - this group might be less willing to look around the website. The website must try to hook them in with bold photographs and descriptions.
+
+4. The geological society or group - they need to be able to enquire about a trip easily and be able to book for multiple people at the same time.
+
+5. The school or university group - this group requires an extra educational aspect to theit trips. The site should emphasise that the expertise of their guides can fulfill this requirement. 
+
+### Validating my HTML and CSS code
+
+I tested my four HTML code files (index.html, destinations.html, gallery.html, contact.html) by using the following validation service: 
+- HTML: [W3C Markup Validation Service](https://validator.w3.org/)
+
+I tested my CSS code file (style.css) by using the following validation service:
+- CSS: [W3C Markup Validation Service](https://jigsaw.w3.org/css-validator/)
+
+### Testing different browsers
+
+I manually tested my website on the following web browsers, checking that the navigation bar, buttons, socila media icons, responsiveness and design worked as intended:
+- Google Chrome 
+- Mozilla Firefox 
+- Apple Safari
+
+### Testing responsiveness
+
+I manually tested the live project by doing the following:
+
+- Using Google Developer Tools to view the project on devices with different screen sizes.
+
+### Issues found
+
+I found a couple problems with the responsiveness of my website on different devices and screen sizes at different points of the devepolment process. Firstly, some buttons were overflowing their parent containers. Secondly, the gallery was reluctant to change from three to two columns on mobile devices.
+These issues were eventually corrected with the help of students, tutors and mentors on the Slack Community.
+
+## Deployment
+
+### Deploying my project 
+
+I created my Milestone Project 1 on GitHub and used GitPod's development environment to write my HTML and CSS code. 
+
+So that my project was viewable to others it was then deployed to GitHub Pages using the following process:
+
+1. Opened the 'Settings' section of the project repository in GitHub.
+2. Scrolled to the 'GitHub Pages' section.
+3. Selected 'master branch' as the Source.
+3. This deployed the project on GitHub Pages and thus enabled me to share the live website with others. 
+
+My live project can be viewed by folowing this link: [Volcanic Vacations](https://sruss07.github.io/MS01-Volcanic-Vacations/)
+
+## Credits
+
+### Content
+
+The content of this website is completely fictional and all code and text is written entirely by myself. The images are from Unsplash and Pexels and are fully referenced below. 
+
+### Media
+
 ### Acknowledgements
+
+The following images were sourced from [Unsplash](https://unsplash.com/).
+
+- *Home page* 
+
+  * [Top Hero image](https://www.pexels.com/photo/photo-of-a-man-using-laptop-3771790/)
+
+  * [Bottom Hero image](https://www.pexels.com/photo/photo-of-a-man-using-laptop-3771790/)
+
+- *Destinations page* 
+
+    * [Hero image](https://www.pexels.com/photo/photo-of-a-man-using-laptop-3771790/)   
+
+- *Gallery page* 
+
+    * [Gallery image 1](https://www.pexels.com/photo/photo-of-a-man-using-laptop-3771790/)
+    * [Gallery image 2](https://www.pexels.com/photo/photo-of-a-man-using-laptop-3771790/)
+    * [Gallery image 3](https://www.pexels.com/photo/photo-of-a-man-using-laptop-3771790/)
+    * [Gallery image 4](https://www.pexels.com/photo/photo-of-a-man-using-laptop-3771790/)
+    * [Gallery image 5](https://www.pexels.com/photo/photo-of-a-man-using-laptop-3771790/)
+    * [Gallery image 6](https://www.pexels.com/photo/photo-of-a-man-using-laptop-3771790/)
+    * [Gallery image 7](https://www.pexels.com/photo/photo-of-a-man-using-laptop-3771790/)
+    * [Gallery image 8](https://www.pexels.com/photo/photo-of-a-man-using-laptop-3771790/)
+    * [Gallery image 9](https://www.pexels.com/photo/photo-of-a-man-using-laptop-3771790/)
+    * [Gallery image 10](https://www.pexels.com/photo/photo-of-a-man-using-laptop-3771790/)
+    * [Gallery image 11](https://www.pexels.com/photo/photo-of-a-man-using-laptop-3771790/)
+    * [Gallery image 12](https://www.pexels.com/photo/photo-of-a-man-using-laptop-3771790/)
+
+The following images were sourced from [Pexels](https://www.pexels.com/) .
 
 Thank you to the following people who helped me get my project completed on time with support, inspiration and guidance from start to finish:
 
