@@ -2,6 +2,8 @@
 
 ## Code Institute: Milestone Project 1
 
+![Volcanic Vacations Interactive Design](assets/images/ms1-project-device-mockup.png)
+
 *Volcanic Vacations* is a fictional volcano adventure holiday site that offers fully guided trips to volcanoes and volcanic zones around the world.
 
 The initial idea to produce this site for my Milestone Project 1 stems from my life long passion for all subjects related to our planet, such as volcanoes, earthquakes and the weather. This interest eventually led me to complete a 7 year remote learning degree in Geosciences with the Open University.
