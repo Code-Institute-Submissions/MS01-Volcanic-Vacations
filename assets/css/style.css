@@ -233,7 +233,7 @@ footer {
   color: #f3f0ee;
   text-align: center;
   margin-top: 100px;
-  width: 400px;
+  width: auto;
   height: 70px;
   border-color: #b02841 !important;
   border-radius: 25px;
@@ -344,7 +344,10 @@ hr {
 
 .form-container {
   margin: auto;
-  border: 3px dashed blue;
+}
+
+.form-col {
+    margin: auto;
 }
 
 .contact-us-heading {
@@ -357,6 +360,10 @@ hr {
   width: 250px;
   height: 50px;
   padding: 10px;
+}
+
+.form-control {
+    margin-bottom: 10px;
 }
 
 .contact-form {
@@ -384,15 +391,15 @@ hr {
 label {
   width: 150px;
   display: inline-block;
+  margin-bottom: 0; 
 }
 
-.btn-danger {
+.btn-danger, .btn-block {
   color: #2f2d2e;
   background-color: lightgrey;
   text-transform: uppercase;
-  width: 150px;
   margin: auto;
-  margin-top: 5px;
+  margin-top: 15px;
   border-radius: 20px;
 }
 
@@ -437,9 +444,6 @@ textarea {
 }
 
 @media screen and (max-width: 768px) {
-  #gallery-photos {
-    column-count: 1;
-  }
   .intro-text {
     width: 90%;
   }
