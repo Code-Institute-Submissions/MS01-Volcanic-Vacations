@@ -291,6 +291,7 @@ footer {
 
 .destinations-title a {
   background-color: #b02841 !important;
+  height: auto;
 }
 
 .bg-color {
@@ -429,7 +430,8 @@ textarea {
 @media screen and (max-width: 768px) {
   .navbar .navbar-brand,
   .destinations-link a,
-  .sign-up-link a {
+  .sign-up-link a,
+  .destinations-title a {
     font-size: 25px;
   }
 }
