@@ -441,14 +441,16 @@ textarea {
   .destinations-title a {
     font-size: 25px;
   }
-}
-
-@media screen and (max-width: 768px) {
   .intro-text {
     width: 90%;
   }
   .destination-btn {
     width: 100%;
+  }
+  .social-network-icons i {
+    margin: 10px;
+    padding-left: 1px;
+    padding-right: 1px;
   }
 }
 
