@@ -200,6 +200,10 @@ footer {
   display: inline;
 }
 
+.social-network-icons li a {
+    text-decoration: none;
+}
+
 .social-network-icons i {
   font-size: 150%;
   margin: 15px;

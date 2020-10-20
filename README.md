@@ -13,6 +13,34 @@ I have also travelled on a volcano holiday myself to Sicily with an existing vol
 This is the first of four Milestone Projects that are required as part of the Full Stack Web Development Program with *The Code Institute*.
 The essential requirements for this prject were to produce a  static website with a minimum of three pages that is fully responsive from mobile up to large screen sizes, using HTML5 and CSS3.
 
+## Table of contents
+
+- [**UX**](#UX)
+    - [Main objectives](#Main-objectives)
+    - [User Stories](#User-Stories)
+    - [Design Process](#Design-Process)
+    - [Project Wireframes](#Project-Wireframes)
+- [**Features**](#Features)
+    - [Existing features](#Existing-features)
+    - [Features consistent across all four pages](#Features-consistent-across-all-four-pages)
+    - [Home](#Home)
+    - [Destinations](#Destinations)
+    - [Gallery](#Gallery)
+    - [Contact](#Contact)
+    - [Features to implement in the future](#Features-to-implement-in-the-future)
+- [**Technologies used**](#Technologies-used)
+- [**Testing**](https://github.com/mkthewlis/hotel-eko/blob/master/testing.md)
+    - [Testing user stories](#Testing-user-stories)
+    - [Validating my HTML and CSS code](#Validating-my-HTML-and-CSS-code)
+    - [Testing responsiveness](#Testing-responsiveness)
+    - [Issues found](#Issues-found)
+- [**Deployment**](#Deployment)
+    - [Deploying my project](#Deploying-my-project)
+- [**Credits**](#Credits)
+    - [Content](#Content)
+    - [Media](#Media)
+    - [Acknowledgements](#Acknowledgements)
+
 ## UX
 
 ### Main Objectives
@@ -97,6 +125,9 @@ This website has four seperate pages. Each page can be accessed by clicking on t
 
 #### Gallery
 - The gallery page contains a selection of volcano photographs from the locations which are listed on the 'Destinations' page. The column count will responsively change between different device and screen sizes.
+
+#### Contact
+- The contact page contains a form where users can enquire about the available trips and also sign up to the Volcanic Vacations monthly newsletter. The form alters responsively between different device and screen sizes.
 
 ### Features to implement in the future
 
@@ -190,7 +221,15 @@ I manually tested my website on the following web browsers, checking that the na
 
 I manually tested the live project by doing the following:
 
-- Using Google Developer Tools to view the project on devices with different screen sizes.
+- Using Google Developer Tools to view the project on devices with different screen sizes. The devices on which the responsiveness was tested are as follows:
+- iPhone 5 and SE 
+- iPhone 6, 7 and 8 
+- iPhone 6 Plus, 7 Plus and 8 Plus 
+- iPhone X
+- Samsung Galaxy S5
+- iPad Mini, iPad and iPad Pro
+- Laptop with MDPI screen
+- Laptop with HiDPI screen
 
 ### Issues found
 
