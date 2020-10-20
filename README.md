@@ -13,7 +13,6 @@ I have also travelled on a volcano holiday myself to Sicily with an existing vol
 This is the first of four Milestone Projects that are required as part of the Full Stack Web Development Program with *The Code Institute*.
 The essential requirements for this prject were to produce a  static website with a minimum of three pages that is fully responsive from mobile up to large screen sizes, using HTML5 and CSS3.
 
-
 ## UX
 
 ### Main Objectives
@@ -54,6 +53,8 @@ Each page would also have a footer which would contain social media icons.
 - (#2f2d2e) all site text not in header or footer, header and footer background colour
 - (#b02841) header and footer text and icons, all buttons background colour
 - (#f3f0ee) home page tagline text, all buttons text
+- (#c73c32) hover colour for clickable buttons
+- (lightgrey) background colour for contact form sign up button
 
     After experimenting with a number of font styles I finally decided to use one font style throughout the website. The font style that I thought best complimented my site was Saira Semi Bold.
 
